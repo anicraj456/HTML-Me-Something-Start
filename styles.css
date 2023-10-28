@@ -1,1 +1,171 @@
 /* Write your CSS here! */
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/* id */
+
+#mainHeading{
+    height: auto;
+    padding-top: 20px;
+    margin: 0px;
+    background-color: rgba(136, 103, 207, 0.88);
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+#recipename{
+    color: #0555af;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px 0px 8px;
+}
+
+#quote{
+    color: #0555af;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 0px 8px;
+}
+
+
+#testP{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 8px;
+
+}
+
+/* element */
+
+
+hr{
+    height: 6px;
+    background-color: rgb(42, 61, 130);
+    border: none;
+    margin: 20px 0px 0px;
+}
+
+/* article class */
+
+.listed-items{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+/* Entities */
+
+.listed-items > .recipe{
+
+    color: black;
+    font-weight: bold;
+   
+}
+
+/* class */
+
+.items{
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0555af;
+    margin: 0px;
+}
+
+footer{
+    
+        text-align: justify;
+        margin: 2px 20px;
+        color:#0555af;
+    }
+
+
+/* element */
+
+h5,h6,h7,h8
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0555af;
+    margin: 5px;
+
+}
+
+
+/* element and class */
+
+ol{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+
+}
+
+.funParagraph{
+    
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+   
+}
+/*image*/
+
+img {
+
+    width: 550px;
+    height: 450px;
+    margin: 60px 100px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.border {
+
+    border: 6px solid #918fe3;
+    padding: 0px;
+}
+.right {
+
+    float: right;
+    margin-left: 100px;
+}
+
+.center {
+
+    margin-bottom: 20px;
+}
+
+.img1{
+
+    width: 550px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+

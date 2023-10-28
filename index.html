@@ -2,18 +2,18 @@
 <html>
    <head>
       <title>Recipe World</title>
+      <link href="styles.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
       <!-- Write your HTML in this file! -->
 
-      <h1>Ani's Recipe World</h1>
-      <h2>Homemade Biryani Masala</h2>
-      <h3>Perfect Masala to make Aromatic Biryani</h3>
+      <h1 id="mainHeading">Ani's Recipe World</h1>
+      <h2 id="recipename">Homemade Biryani Masala</h2>
+      <h3 id="quote">Perfect Masala to make Aromatic Biryani</h3>
 
       <!--Intro-->
       <section>
-
-         <p>
+         <p id="testP">
             <b>Biryani is one of the most amazing royal delicacies introduced to Indians by the Persians.<br>
              Since then it has been much popular and is considered to be a luxurious treat to enjoy on special occasions.
             </b>
@@ -23,10 +23,13 @@
 
       <!--Recipe-->
 
-   <article>
+   <article class="listed-items">
       <section>
-            <img src="images/biryani-masala-Ingredients .jpg">
-         <h4>Ingredients :</h4>
+
+         <img class="right border" src="images/biryani-masala-Ingredients .jpg">
+
+         <h4 class="items">Ingredients :</h4>
+        
          <ul>
             <li>1" 5-6nos Cinnamon sticks</li>
             <li>15 nos Green Cardamom</li>
@@ -45,8 +48,11 @@
             <li>1/4 Tsp Tumeric Powder</li>
             <li>1 Tsp Red Chilli Powder</li>   
          </ul>
+      </article>
       </section>
+
          <!--Procedure-->
+
       <section>
          <h5>Directions :</h5>
             <ol>
@@ -65,10 +71,11 @@
                <li>
                   Again grind for a minite,so spice powders are mixed well.
                </li>
-               <div>
-               <img src="images/biryani-masala-Steps.jpg">
+
+               <div class="img1">
+               <img class="center border" src="images/biryani-masala-Steps.jpg">
                </div>
-                 <img src="images/masala-picture.jpeg">
+                 <img class="center border" src="images/masala-picture.jpeg">
             </ol>
       </section>
    
@@ -92,13 +99,13 @@
       </section>
 
       <!--Using in Recipe-->
-
+   <article class="recipe">
       <section>
          <h7>How To Use In The Recipe :</h7>
             <ol>
                <li>
                   Add 1 teaspoon of biryani masala for 1 cup of basmati rice.
-                  <a href="https://www.youtube.com/watch?v=QpVGQ-aw7zQ" target="_blank">&rarr; Check here to see how to make Briyani..</a>
+                  <a href="https://www.youtube.com/watch?v=QpVGQ-aw7zQ" target="_blank">&rarr; <b>Check here to see how to make Briyani..</b></a>
                </li>
                <li>
                   This can be used in making curry, sabzi in place of garam masala for a different flavor.
@@ -106,10 +113,37 @@
             </ol>
       </section>
    </article>
+
+      <section>
+         <h8>Useful Tips<h8>
+            <p class="funParagraph">
+               <ol>
+                  <li>
+                     Always add spices to the cold pan and then turn the heat on .
+                  </li>
+                  <li>
+                     This way spices reach the best optimum flavor once roasted .
+                  </li>
+                  <li>
+                     If added to the hot pan then you are shocking the spices.
+                  </li>
+                  <li>
+                     Keep stirring continuously while dry roasting the spices.
+                  </li>
+                  <li>
+                     Once aromatic and roasted, don't keep them in the hot pan.
+                  </li>
+                  <li>
+                     Immediately remove them to a plate to stop the roasting process<br>
+                     otherwise spices may get a burn or over roasted from one side.
+                  </li>
+            </ol>
+            </p>
+      </section>   
    </main>   
       <hr>
    <footer>
-         <p>&#169 2023 Anitha Siraj &#174</p>
+         &#169 2023 Anitha Siraj &#174
    </footer>
    </body>
    </html>
